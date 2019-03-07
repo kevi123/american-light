@@ -41,7 +41,7 @@ footer p{
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
     font-size: 30px;
-    color
+    /* color: black; */
   }
 
 /* This is picture for the jumbotron, include class of here to jumbotron */
@@ -57,6 +57,12 @@ footer p{
   font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
   /* font-size: 30px; */
   color: #000000;
+  text-shadow: 2px 2px 8px #ffffff;
+}
+.title-font{
+  font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
+  color: #000000;
+  text-shadow: 2px 2px 8px #ffffff;
 }
 
 .pull-left {
