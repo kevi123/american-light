@@ -8,6 +8,19 @@ p {
     font-size:16px;
 }
 
+/* This makes the images round, lower makes img bigger */
+.rounded{
+  border-radius: 30%;
+}
+
+.rounded15{
+  border-radius: 15%;
+}
+
+.logoRounded{
+  border-radius: 50%;
+}
+
 .navbar-section{
   background-color: lightgrey;
 }
@@ -31,8 +44,17 @@ footer p{
   background-image: url("../img/petstore_logo.png") ;
 } */
 
+.marginNav{
+  margin-left: 10px;
+}
+
+.logoContact{
+  margin-left:5px;
+  font-size: 18px;
+}
+
 .logo{
-  margin-left: 100px;
+  margin-left: 10px;
   width: 60px;
 }
 
