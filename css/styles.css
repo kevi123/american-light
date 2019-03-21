@@ -51,7 +51,10 @@ footer p{
     background-size: cover;
     background-position:center center ;   /* This also changes size of centerimage displayed*/
     color: white;
+    margin-top:80px;
 }
+
+
 
 .hero-text{
   font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
