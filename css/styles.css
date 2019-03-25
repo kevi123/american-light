@@ -62,7 +62,7 @@ footer p{
   .logo2{
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
-    font-size: 30px;
+    font-size: 26px;
     /* color: black; */
   }
 
@@ -89,6 +89,27 @@ footer p{
   color: #000000;
   text-shadow: 2px 2px 8px #ffffff;
 }
+
+
+ .card{
+  /*  width: calc(90%);/* width of cardleaves some space in between*/
+    height:350px;
+    background-color: #ffffff;
+    margin: calc(10%/6);  /*every card has a left and right margin ex. 3cards eqauls 6*/
+    box-shadow:5px 7px 5px #000;/*gives cards sense of depth*/
+    padding: 35px; /* this pads card context fom outer box*/
+}
+
+/*
+.card img{
+    height: 180px;
+    display: block;
+    /* border-radius: 70%; */
+} */
+
+
+
+
 
 .pull-left {
     float: left;
