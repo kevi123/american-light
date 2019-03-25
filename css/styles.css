@@ -50,7 +50,7 @@ footer p{
 
 .logoContact{
   margin-left:5px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .logo{
@@ -120,8 +120,13 @@ footer p{
 
 /* PLACE YOUR CUSTOM CODE HERE */
 
-@media screen and (max-width:991px){
-  .right-side {
+@media screen and (max-width:500px){
+/*
+  [class*="col-"] {
+    width: 100%;
+  } */
+
+  /* .right-side {
     text-align: center;
-  }
+  } */
 }
