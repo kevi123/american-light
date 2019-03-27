@@ -79,6 +79,7 @@ body{
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
     font-size: 24px;
+      text-shadow: 0px 0px 2px #ffffff , 0px 0px 2px #ffffff, 0px 0px 2px #ffffff;
     /* color: black; */
   }
 
