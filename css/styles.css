@@ -8,6 +8,13 @@ p {
     font-size:16px;
 }
 
+body{
+  opacity: 1;
+  background-image: url("../img/sunny.jpg");
+  background-size: 100% 100%;
+  background-color: lightblue;
+}
+
 /* This makes the images round, lower makes img bigger */
 .pop{
   box-shadow:5px 7px 5px #000;/*gives cards sense of depth*/ */
@@ -29,10 +36,12 @@ p {
 }
 
 .navbar-section{
+  opacity: .95;
   background-color: lightgrey;
 }
 
 .adoption-section{
+  opacity: .90;
   background-color: lightgrey;
 }
 
@@ -89,20 +98,20 @@ p {
   font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
   /* font-size: 30px; */
   color: #000000;
-  text-shadow: 2px 2px 8px #ffffff;
-}
+  text-shadow: 0px 0px 6px #ffffff , 0px 0px 6px #ffffff, 0px 0px 6px #ffffff;}
 .title-font{
   font-family: 'Allerta Stencil', sans-serif; /*This is a font from google, imported in html*/
   color: #000000;
-  text-shadow: 2px 2px 8px #ffffff;
+  text-shadow: 0px 0px 6px #ffffff , 0px 0px 6px #ffffff, 0px 0px 6px #ffffff;
 }
 
 
  .card{
   /*  width: calc(90%);/* width of cardleaves some space in between*/
     /* height:350px; */
+    opacity: 1 !important;
     background-color: #ffffff;
-    /* margin: calc(10%/6);  /*every card has a left and right margin ex. 3cards eqauls 6*/ 
+    /* margin: calc(10%/6);  /*every card has a left and right margin ex. 3cards eqauls 6*/
     box-shadow:10px 10px 10px #000;/*gives cards sense of depth*/
     /* padding: 35px; /* this pads card context fom outer box*/ */
 }
