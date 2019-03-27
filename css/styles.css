@@ -86,7 +86,7 @@ body{
 /* This is picture for the jumbotron, include class of here to jumbotron */
 .hero {
     height:300px;
-    background-image: url("../img/solar-panels.jpg");
+    background-image: url("../img/solar-panels-lq.jpg" );
     background-size: cover;
     background-position:center center ;   /* This also changes size of centerimage displayed*/
     color: white;
